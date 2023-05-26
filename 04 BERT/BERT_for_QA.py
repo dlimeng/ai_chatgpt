@@ -7,7 +7,7 @@ torch.manual_seed(0)
 np.random.seed(0)
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertForQuestionAnswering.from_pretrained('bert-base-uncased')
+model = BertForQuestionAnswering.from_pretrained('/Users/limeng/Public/workspace/ai_chatgpt/04 BERT/SQuAD/SQuAD_finetuned_bert')
 
 question, text = "What is the capital of China?", "The capital of China is Beijing."
 
